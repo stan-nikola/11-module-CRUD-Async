@@ -1,0 +1,2 @@
+function getFruit(e){const t={strawberry:"🍓",kiwi:"🥝 ",apple:"🍎"};return new Promise(((o,i)=>setTimeout((()=>o(t[e])),500)))}async function aMakeSmoothie(){try{console.time("aMakeSmoothie");const e=getFruit("apple"),t=getFruit("kiwi"),o=getFruit("strawberry"),i=await Promise.all([e,t,o]);return console.log(i),console.timeEnd("aMakeSmoothie"),i}catch(e){console.log("Ошибка")}}aMakeSmoothie();
+//# sourceMappingURL=03-async.15d93971.js.map
