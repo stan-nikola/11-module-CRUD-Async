@@ -1,11 +1,11 @@
 {
-  "name": "parcel-project-template",
+  "name": "11-module-crud-async",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://goitacademy.github.io/parcel-project-template",
+  "homepage": "https://stan-nikola.github.io/11-module-CRUD-Async",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --public-url /11-module-CRUD-Async/"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,11 @@
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
+     "json-server": "^0.16.2",
+       "parcel-bundler": "^1.12.4",
     "parcel": "^2.6.0",
+     "parcel-plugin-nuke-dist": "^1.0.1",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^1.7.4"
   },
